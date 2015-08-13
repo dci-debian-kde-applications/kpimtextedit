@@ -10,6 +10,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5coreaddons-dev (>= 5.12.0~),
                libkf5emoticons-dev (>= 5.12.0~),
                libkf5iconthemes-dev (>= 5.12.0~),
+               libkf5kdelibs4support-dev (>= 5.12.0~),
                libkf5sonnet-dev (>= 5.12.0~),
                libkf5textwidgets-dev (>= 5.12.0~),
                pkg-kde-tools (>> 0.15.15)
