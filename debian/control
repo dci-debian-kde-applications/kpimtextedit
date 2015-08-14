@@ -24,7 +24,9 @@ Package: libkf5pimtextedit-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5pimtextedit5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5pimtextedit5 (= ${binary:Version}),
+         libkf5textwidgets-dev,
+         ${misc:Depends}
 Description: libkf5pimtextedit - development files
  KPIMTextedit provides a textedit with PIM-specific features. It also provides
  so-called rich text builders which can convert the formatted text in the text
