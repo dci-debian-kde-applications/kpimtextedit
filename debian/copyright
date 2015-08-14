@@ -3,7 +3,11 @@ Upstream-Name: kpimtextedit
 Source: http://download.kde.org/pub/kde/unstable/applications/
 
 Files: *
-Copyright:
+Copyright: 2007-2015 Laurent Montel <montel@kde.org>
+           2009 Thomas McGuire <mcguire@kde.org>
+           2009 Thomas McGuire <mcguire@kde.org>
+           2010 Stephen Kelly <steveire@gmail.com>
+           2014 Volker Krause <vkrause@kde.org>
 License: LGPL-2+
 
 Files: src/emailquotedecorator.h
@@ -12,14 +16,15 @@ Files: src/emailquotedecorator.h
        src/emailquotedecorator.cpp
        src/emailquotehighlighter.cpp
        src/texteditorcompleter.h
-Copyright:
+Copyright: 2006-2015 Laurent Montel <montel@kde.org>
+           2008 Thomas McGuire <mcguire@kde.org>
 License: LGPL-2.1+
 
-Files: autotests/textutilstest.*
+Files: autotests/textutilstest.cpp
 Copyright: 2011 Torgny Nyblom <nyblom@kde.org>
 License: LGPL-2+3+KDEeV
 
-Files: kpimtextedit/tests/textutilstest.h
+Files: autotests/textutilstest.h
 Copyright: 2011, Torgny Nyblom <nyblom@kde.org>
 License: GPL-2+3+KDEeV
 
