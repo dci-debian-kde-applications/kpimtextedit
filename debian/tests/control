@@ -1,6 +1,6 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
-         dbus-x11, xvfb, xauth
+         dbus-x11, xvfb, xauth, oxygen-icon-theme
 Restrictions: build-needed
 
 Tests: acc
