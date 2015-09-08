@@ -1,8 +1,8 @@
-kpimtextedit (15.08.0-1~) UNRELEASED; urgency=medium
+kpimtextedit (15.08.0-1) experimental; urgency=medium
 
   * Initial Debian release.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 11:54:44 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 18:39:18 +0200
 
 kpimtextedit (15.08.0-0ubuntu1) wily; urgency=medium
 
