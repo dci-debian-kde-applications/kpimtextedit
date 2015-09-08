@@ -13,7 +13,9 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5kdelibs4support-dev (>= 5.12.0~),
                libkf5sonnet-dev (>= 5.12.0~),
                libkf5textwidgets-dev (>= 5.12.0~),
-               pkg-kde-tools (>> 0.15.15)
+               libkf5widgetsaddons-dev (>= 5.12.0~),
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev (>= 5.2.0~)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/pim/kpimtextedit
@@ -25,7 +27,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: libkf5pimtextedit5 (= ${binary:Version}),
-         libkf5textwidgets-dev,
+         libkf5textwidgets-dev (>= 5.12.0~),
          ${misc:Depends}
 Description: libkf5pimtextedit - development files
  KPIMTextedit provides a textedit with PIM-specific features. It also provides
