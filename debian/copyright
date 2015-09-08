@@ -3,11 +3,10 @@ Upstream-Name: kpimtextedit
 Source: http://download.kde.org/pub/kde/unstable/applications/
 
 Files: *
-Copyright: 2007-2015 Laurent Montel <montel@kde.org>
-           2009 Thomas McGuire <mcguire@kde.org>
-           2009 Thomas McGuire <mcguire@kde.org>
-           2010 Stephen Kelly <steveire@gmail.com>
-           2014 Volker Krause <vkrause@kde.org>
+Copyright: 2007-2015, Montel Laurent <montel@kde.org>
+           2010, Stephen Kelly <steveire@gmail.com>
+           2009, Thomas McGuire <mcguire@kde.org>
+           2014, Volker Krause <vkrause@kde.org>
 License: LGPL-2+
 
 Files: src/emailquotedecorator.h
@@ -50,24 +49,6 @@ License: LGPL-2+
  .
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
-
-License: LGPL-2
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License version 2 as published by the Free Software Foundation.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Library General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
-  Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU Library General Public
- License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
 
 License: LGPL-2+3+KDEeV
  This library is free software; you can redistribute it and/or modify
