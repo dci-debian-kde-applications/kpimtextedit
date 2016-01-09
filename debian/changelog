@@ -10,6 +10,7 @@ kpimtextedit (15.12.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Refresh symbols. Removed many MISSING. We are opting for rebuild. 
   * Another refresh of symbols. 
+  * Remove unecessary epoch from symbols file. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:11:04 +0000
 
