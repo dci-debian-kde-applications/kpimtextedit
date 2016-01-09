@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.12.0 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64 i386
 libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIdEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:5.12.0
  _ZN12KPIMTextEdit10EditorUtil11reverseCaseER11QTextCursor@Base 4:5.12.0
