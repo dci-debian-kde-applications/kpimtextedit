@@ -49,16 +49,3 @@ Description: library that provides a textedit with PIM-specific features
  edit to all kinds of markup, like HTML or BBCODE.
  .
  This package is part of the KDE Development Platform PIM libraries module.
-
-Package: libkf5pimtextedit-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5pimtextedit5 (= ${binary:Version}), ${misc:Depends}
-Description: libkf5pimtextedit - debug symbols
- KPIMTextedit provides a textedit with PIM-specific features. It also provides
- so-called rich text builders which can convert the formatted text in the text
- edit to all kinds of markup, like HTML or BBCODE.
- .
- This package contains the debug symbols.
