@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.12.0 amd64
+# SymbolsHelper-Confirmed: 15.12.1+git20160201.2024+16.04 amd64 i386
 libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIdEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.12.0
  _ZN12KPIMTextEdit10EditorUtil11reverseCaseER11QTextCursor@Base 15.12.0
@@ -40,12 +40,12 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit14RichTextEditor14addIgnoreWordsERK11QStringList@Base 15.12.0
  _ZN12KPIMTextEdit14RichTextEditor14clearDecoratorEv@Base 15.12.0
  _ZN12KPIMTextEdit14RichTextEditor14deleteWordBackEv@Base 15.12.0
- _ZN12KPIMTextEdit14RichTextEditor14handleShortcutEPK9QKeyEvent@Base 15.12.0
+ _ZN12KPIMTextEdit14RichTextEditor14handleShortcutEP9QKeyEvent@Base 15.12.1+git20160201.2024+16.04
  _ZN12KPIMTextEdit14RichTextEditor14mousePopupMenuE6QPoint@Base 15.12.0
  _ZN12KPIMTextEdit14RichTextEditor14setHighlighterEPN6Sonnet11HighlighterE@Base 15.12.0
  _ZN12KPIMTextEdit14RichTextEditor15languageChangedERK7QString@Base 15.12.0
  _ZN12KPIMTextEdit14RichTextEditor16contextMenuEventEP17QContextMenuEvent@Base 15.12.0
- _ZN12KPIMTextEdit14RichTextEditor16overrideShortcutEPK9QKeyEvent@Base 15.12.0
+ _ZN12KPIMTextEdit14RichTextEditor16overrideShortcutEP9QKeyEvent@Base 15.12.1+git20160201.2024+16.04
  _ZN12KPIMTextEdit14RichTextEditor16setSearchSupportEb@Base 15.12.0
  _ZN12KPIMTextEdit14RichTextEditor16spellCheckStatusERK7QString@Base 15.12.0
  _ZN12KPIMTextEdit14RichTextEditor16staticMetaObjectE@Base 15.12.0
@@ -124,11 +124,11 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit15PlainTextEditor14addIgnoreWordsERK11QStringList@Base 15.12.0
  _ZN12KPIMTextEdit15PlainTextEditor14clearDecoratorEv@Base 15.12.0
  _ZN12KPIMTextEdit15PlainTextEditor14deleteWordBackEv@Base 15.12.0
- _ZN12KPIMTextEdit15PlainTextEditor14handleShortcutEPK9QKeyEvent@Base 15.12.0
+ _ZN12KPIMTextEdit15PlainTextEditor14handleShortcutEP9QKeyEvent@Base 15.12.1+git20160201.2024+16.04
  _ZN12KPIMTextEdit15PlainTextEditor14setHighlighterEPN6Sonnet11HighlighterE@Base 15.12.0
  _ZN12KPIMTextEdit15PlainTextEditor15languageChangedERK7QString@Base 15.12.0
  _ZN12KPIMTextEdit15PlainTextEditor16contextMenuEventEP17QContextMenuEvent@Base 15.12.0
- _ZN12KPIMTextEdit15PlainTextEditor16overrideShortcutEPK9QKeyEvent@Base 15.12.0
+ _ZN12KPIMTextEdit15PlainTextEditor16overrideShortcutEP9QKeyEvent@Base 15.12.1+git20160201.2024+16.04
  _ZN12KPIMTextEdit15PlainTextEditor16setSearchSupportEb@Base 15.12.0
  _ZN12KPIMTextEdit15PlainTextEditor16spellCheckStatusERK7QString@Base 15.12.0
  _ZN12KPIMTextEdit15PlainTextEditor16staticMetaObjectE@Base 15.12.0
@@ -194,6 +194,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit16RichTextComposer15processKeyEventEP9QKeyEvent@Base 15.12.0
  _ZN12KPIMTextEdit16RichTextComposer15textModeChangedENS0_4ModeE@Base 15.12.0
  _ZN12KPIMTextEdit16RichTextComposer16activateRichTextEv@Base 15.12.0
+ _ZN12KPIMTextEdit16RichTextComposer16setEnableActionsEb@Base 15.12.1+git20160201.2024+16.04
  _ZN12KPIMTextEdit16RichTextComposer16staticMetaObjectE@Base 15.12.0
  _ZN12KPIMTextEdit16RichTextComposer17createHighlighterEv@Base 15.12.0
  _ZN12KPIMTextEdit16RichTextComposer17insertModeChangedEv@Base 15.12.0
@@ -288,6 +289,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit18TextGoToLineWidget10moveToLineEi@Base 15.12.0
  _ZN12KPIMTextEdit18TextGoToLineWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.12.0
  _ZN12KPIMTextEdit18TextGoToLineWidget11qt_metacastEPKc@Base 15.12.0
+ _ZN12KPIMTextEdit18TextGoToLineWidget12hideGotoLineEv@Base 15.12.1+git20160201.2024+16.04
  _ZN12KPIMTextEdit18TextGoToLineWidget12slotCloseBarEv@Base 15.12.0
  _ZN12KPIMTextEdit18TextGoToLineWidget12slotGoToLineEv@Base 15.12.0
  _ZN12KPIMTextEdit18TextGoToLineWidget16staticMetaObjectE@Base 15.12.0
@@ -370,6 +372,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit19TextEditorCompleterD0Ev@Base 15.07.90
  _ZN12KPIMTextEdit19TextEditorCompleterD1Ev@Base 15.07.90
  _ZN12KPIMTextEdit19TextEditorCompleterD2Ev@Base 15.07.90
+ _ZN12KPIMTextEdit19TextToSpeechActions11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.12.1+git20160201.2024+16.04
  _ZN12KPIMTextEdit19TextToSpeechActions11qt_metacastEPKc@Base 15.12.0
  _ZN12KPIMTextEdit19TextToSpeechActions12stateChangedENS_18TextToSpeechWidget5StateE@Base 15.12.0
  _ZN12KPIMTextEdit19TextToSpeechActions13slotPlayPauseEv@Base 15.12.0
@@ -447,7 +450,6 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit21TableCellFormatDialogD0Ev@Base 15.07.90
  _ZN12KPIMTextEdit21TableCellFormatDialogD1Ev@Base 15.07.90
  _ZN12KPIMTextEdit21TableCellFormatDialogD2Ev@Base 15.07.90
- _ZN12KPIMTextEdit21TextToSpeechInterfaceD2Ev@Base 5.12.0
  _ZN12KPIMTextEdit21TextToSpeechInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.12.0
  _ZN12KPIMTextEdit21TextToSpeechInterface11qt_metacastEPKc@Base 15.12.0
  _ZN12KPIMTextEdit21TextToSpeechInterface12stateChangedENS_18TextToSpeechWidget5StateE@Base 15.12.0
@@ -483,6 +485,14 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit22RichTextComposerImagesD0Ev@Base 15.12.0
  _ZN12KPIMTextEdit22RichTextComposerImagesD1Ev@Base 15.12.0
  _ZN12KPIMTextEdit22RichTextComposerImagesD2Ev@Base 15.12.0
+ _ZN12KPIMTextEdit22RichTextComposerWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.12.1+git20160201.2024+16.04
+ _ZN12KPIMTextEdit22RichTextComposerWidget11qt_metacastEPKc@Base 15.12.1+git20160201.2024+16.04
+ _ZN12KPIMTextEdit22RichTextComposerWidget16staticMetaObjectE@Base 15.12.1+git20160201.2024+16.04
+ _ZN12KPIMTextEdit22RichTextComposerWidgetC1EP7QWidget@Base 15.12.1+git20160201.2024+16.04
+ _ZN12KPIMTextEdit22RichTextComposerWidgetC2EP7QWidget@Base 15.12.1+git20160201.2024+16.04
+ _ZN12KPIMTextEdit22RichTextComposerWidgetD0Ev@Base 15.12.1+git20160201.2024+16.04
+ _ZN12KPIMTextEdit22RichTextComposerWidgetD1Ev@Base 15.12.1+git20160201.2024+16.04
+ _ZN12KPIMTextEdit22RichTextComposerWidgetD2Ev@Base 15.12.1+git20160201.2024+16.04
  _ZN12KPIMTextEdit23RichTextComposerActions11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.12.0
  _ZN12KPIMTextEdit23RichTextComposerActions11qt_metacastEPKc@Base 15.12.0
  _ZN12KPIMTextEdit23RichTextComposerActions12setListStyleEi@Base 15.12.0
@@ -670,7 +680,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit39PlainTextSyntaxSpellCheckingHighlighterD2Ev@Base 15.12.0
  _ZN12KPIMTextEdit9TextUtils18containsFormattingEPK13QTextDocument@Base 15.07.90
  _ZN12KPIMTextEdit9TextUtils8flowTextER7QStringRKS1_i@Base 15.07.90
- (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.12.0
+ (optional=templinst|arch=amd64)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.12.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.12.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 15.12.0
  _ZNK12KPIMTextEdit12TextToSpeech10metaObjectEv@Base 15.12.0
@@ -798,6 +808,8 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZNK12KPIMTextEdit22RichTextComposerImages14embeddedImagesEv@Base 15.12.0
  _ZNK12KPIMTextEdit22RichTextComposerImages14imagesWithNameEv@Base 15.12.0
  _ZNK12KPIMTextEdit22RichTextComposerImages20embeddedImageFormatsEv@Base 15.12.0
+ _ZNK12KPIMTextEdit22RichTextComposerWidget10metaObjectEv@Base 15.12.1+git20160201.2024+16.04
+ _ZNK12KPIMTextEdit22RichTextComposerWidget16richTextComposerEv@Base 15.12.1+git20160201.2024+16.04
  _ZNK12KPIMTextEdit23RichTextComposerActions10metaObjectEv@Base 15.12.0
  _ZNK12KPIMTextEdit23RichTextComposerActions15numberOfActionsEv@Base 15.12.0
  _ZNK12KPIMTextEdit23RichTextComposerActions18richTextActionListEv@Base 15.12.0
@@ -865,6 +877,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZTIN12KPIMTextEdit21TextToSpeechInterfaceE@Base 15.12.0
  _ZTIN12KPIMTextEdit22EmoticonTextEditActionE@Base 15.07.90
  _ZTIN12KPIMTextEdit22RichTextComposerImagesE@Base 15.12.0
+ _ZTIN12KPIMTextEdit22RichTextComposerWidgetE@Base 15.12.1+git20160201.2024+16.04
  _ZTIN12KPIMTextEdit23RichTextComposerActionsE@Base 15.12.0
  _ZTIN12KPIMTextEdit23SelectSpecialCharDialogE@Base 15.07.90
  _ZTIN12KPIMTextEdit24RichTextExternalComposerE@Base 15.12.0
@@ -904,6 +917,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZTSN12KPIMTextEdit21TextToSpeechInterfaceE@Base 15.12.0
  _ZTSN12KPIMTextEdit22EmoticonTextEditActionE@Base 15.07.90
  _ZTSN12KPIMTextEdit22RichTextComposerImagesE@Base 15.12.0
+ _ZTSN12KPIMTextEdit22RichTextComposerWidgetE@Base 15.12.1+git20160201.2024+16.04
  _ZTSN12KPIMTextEdit23RichTextComposerActionsE@Base 15.12.0
  _ZTSN12KPIMTextEdit23SelectSpecialCharDialogE@Base 15.07.90
  _ZTSN12KPIMTextEdit24RichTextExternalComposerE@Base 15.12.0
@@ -943,6 +957,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZTVN12KPIMTextEdit21TextToSpeechInterfaceE@Base 15.12.0
  _ZTVN12KPIMTextEdit22EmoticonTextEditActionE@Base 15.07.90
  _ZTVN12KPIMTextEdit22RichTextComposerImagesE@Base 15.12.0
+ _ZTVN12KPIMTextEdit22RichTextComposerWidgetE@Base 15.12.1+git20160201.2024+16.04
  _ZTVN12KPIMTextEdit23RichTextComposerActionsE@Base 15.12.0
  _ZTVN12KPIMTextEdit23SelectSpecialCharDialogE@Base 15.07.90
  _ZTVN12KPIMTextEdit24RichTextExternalComposerE@Base 15.12.0
@@ -964,6 +979,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  (c++)"non-virtual thunk to KPIMTextEdit::PlainTextEditor::~PlainTextEditor()@Base" 15.12.0
  (c++)"non-virtual thunk to KPIMTextEdit::PlainTextEditorWidget::~PlainTextEditorWidget()@Base" 15.12.0
  (c++)"non-virtual thunk to KPIMTextEdit::RichTextComposer::~RichTextComposer()@Base" 15.12.0
+ (c++)"non-virtual thunk to KPIMTextEdit::RichTextComposerWidget::~RichTextComposerWidget()@Base" 15.12.1+git20160201.2024+16.04
  (c++)"non-virtual thunk to KPIMTextEdit::RichTextEditFindBar::~RichTextEditFindBar()@Base" 15.12.0
  (c++)"non-virtual thunk to KPIMTextEdit::RichTextEditor::~RichTextEditor()@Base" 15.12.0
  (c++)"non-virtual thunk to KPIMTextEdit::RichTextEditorWidget::~RichTextEditorWidget()@Base" 15.12.0
