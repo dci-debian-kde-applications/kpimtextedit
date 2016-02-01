@@ -1,7 +1,8 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
-         dbus-x11
+         dbus-x11, xvfb, xauth, oxygen-icon-theme
 Restrictions: build-needed
 
-# Tests: acc
-# Depends: @, dh-acc, exuberant-ctags
+Tests: acc
+Depends: @, dh-acc, exuberant-ctags
+Restrictions: allow-stderr
