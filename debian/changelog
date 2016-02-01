@@ -1,3 +1,16 @@
+kpimtextedit (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Debian merge: No remaining changes. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 01 Feb 2016 11:24:17 -0800
+
+kpimtextedit (15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:24:27 +0100
+
 kpimtextedit (15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
@@ -21,11 +34,23 @@ kpimtextedit (15.08.2-0ubuntu1) wily; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 14 Oct 2015 12:40:05 +0100
 
+kpimtextedit (15.08.1-1) experimental; urgency=medium
+
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 03:16:25 +0200
+
 kpimtextedit (15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:16:39 +0100
+
+kpimtextedit (15.08.0-1) experimental; urgency=medium
+
+  * Initial Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 18:39:18 +0200
 
 kpimtextedit (15.08.0-0ubuntu1) wily; urgency=medium
 
