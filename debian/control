@@ -18,9 +18,9 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5textwidgets-dev (>= 5.16.0~),
                libkf5widgetsaddons-dev (>= 5.16.0~),
                libkf5xmlgui-dev (>= 5.16.0~),
-               qttools5-dev,
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.4.0~)
+               qtbase5-dev (>= 5.4.0~),
+               qttools5-dev
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/pim/kpimtextedit
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kpimtextedit.git
