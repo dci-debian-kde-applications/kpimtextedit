@@ -6,7 +6,7 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.16.0~),
-               kdesignerplugin,
+               kgendesignerplugin,
                kio-dev (>= 5.16.0~),
                libgrantlee5-dev (>= 5.0~),
                libkf5codecs-dev (>= 5.16.0~),
@@ -18,7 +18,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5textwidgets-dev (>= 5.16.0~),
                libkf5widgetsaddons-dev (>= 5.16.0~),
                libkf5xmlgui-dev (>= 5.16.0~),
-               libqt5designer5,
+               qttools5-dev,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
