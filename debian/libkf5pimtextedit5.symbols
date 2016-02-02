@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.12.0 amd64
+# SymbolsHelper-Confirmed: 4:15.12.1 amd64 i386
 libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIdEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.12.0
  _ZN12KPIMTextEdit10EditorUtil11reverseCaseER11QTextCursor@Base 15.12.0
@@ -370,6 +370,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit19TextEditorCompleterD0Ev@Base 15.07.90
  _ZN12KPIMTextEdit19TextEditorCompleterD1Ev@Base 15.07.90
  _ZN12KPIMTextEdit19TextEditorCompleterD2Ev@Base 15.07.90
+ _ZN12KPIMTextEdit19TextToSpeechActions11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.1
  _ZN12KPIMTextEdit19TextToSpeechActions11qt_metacastEPKc@Base 15.12.0
  _ZN12KPIMTextEdit19TextToSpeechActions12stateChangedENS_18TextToSpeechWidget5StateE@Base 15.12.0
  _ZN12KPIMTextEdit19TextToSpeechActions13slotPlayPauseEv@Base 15.12.0
@@ -447,7 +448,6 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit21TableCellFormatDialogD0Ev@Base 15.07.90
  _ZN12KPIMTextEdit21TableCellFormatDialogD1Ev@Base 15.07.90
  _ZN12KPIMTextEdit21TableCellFormatDialogD2Ev@Base 15.07.90
- _ZN12KPIMTextEdit21TextToSpeechInterfaceD2Ev@Base 5.12.0
  _ZN12KPIMTextEdit21TextToSpeechInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.12.0
  _ZN12KPIMTextEdit21TextToSpeechInterface11qt_metacastEPKc@Base 15.12.0
  _ZN12KPIMTextEdit21TextToSpeechInterface12stateChangedENS_18TextToSpeechWidget5StateE@Base 15.12.0
@@ -670,7 +670,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit39PlainTextSyntaxSpellCheckingHighlighterD2Ev@Base 15.12.0
  _ZN12KPIMTextEdit9TextUtils18containsFormattingEPK13QTextDocument@Base 15.07.90
  _ZN12KPIMTextEdit9TextUtils8flowTextER7QStringRKS1_i@Base 15.07.90
- (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.12.0
+ (optional=templinst|arch=amd64)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.12.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.12.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 15.12.0
  _ZNK12KPIMTextEdit12TextToSpeech10metaObjectEv@Base 15.12.0
