@@ -16,6 +16,7 @@ kpimtextedit (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Fix merge.... 
   * Refresh symbols. 
   * Symbols unstable branch. 
+  * Rebuild new kmime, no changes. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 01 Feb 2016 11:24:17 -0800
 
