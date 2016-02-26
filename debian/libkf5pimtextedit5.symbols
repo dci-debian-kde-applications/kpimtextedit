@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.1 amd64 i386
+# SymbolsHelper-Confirmed: 15.12.1 amd64 i386
 libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIdEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.12.0
  _ZN12KPIMTextEdit10EditorUtil11reverseCaseER11QTextCursor@Base 15.12.0
@@ -372,7 +372,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit19TextEditorCompleterD0Ev@Base 15.07.90
  _ZN12KPIMTextEdit19TextEditorCompleterD1Ev@Base 15.07.90
  _ZN12KPIMTextEdit19TextEditorCompleterD2Ev@Base 15.07.90
- _ZN12KPIMTextEdit19TextToSpeechActions11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.1
+ _ZN12KPIMTextEdit19TextToSpeechActions11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.12.1
  _ZN12KPIMTextEdit19TextToSpeechActions11qt_metacastEPKc@Base 15.12.0
  _ZN12KPIMTextEdit19TextToSpeechActions12stateChangedENS_18TextToSpeechWidget5StateE@Base 15.12.0
  _ZN12KPIMTextEdit19TextToSpeechActions13slotPlayPauseEv@Base 15.12.0

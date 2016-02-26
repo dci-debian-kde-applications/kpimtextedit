@@ -7,7 +7,7 @@ kpimtextedit (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Fix new depenency names. 
   * wrap-and-sort 
   * Refresh symbols. 
-  
+  * Refresh symbols. 
   [ Clive Johnston ]
   * Updating symbols 
   * Adding new file to install 
