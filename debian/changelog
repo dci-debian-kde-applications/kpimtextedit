@@ -1,11 +1,13 @@
-kpimtextedit (15.12.0-2~1.gbp73ba54) UNRELEASED; urgency=medium
+kpimtextedit (16.04.0-1~1.gbp1d44ce) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @73ba5485c645afb2d8d374621436ae199e7426f4 **
+  ** SNAPSHOT build @1d44ce15cbcd1576dbe5a26ca5a9c66421d5500b **
 
   * Bump Standards-Version to 3.9.8
   * Update symbols files from buildds logs (15.12.0-1).
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:42:36 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 01:42:12 +0200
 
 kpimtextedit (15.12.0-1) experimental; urgency=medium
 
