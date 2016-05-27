@@ -1,16 +1,11 @@
-kpimtextedit (16.04.1-1~1.gbpb58536) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @b5853654a8fb196279f7b49fd59a892079f74602 **
+kpimtextedit (16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @1d44ce15cbcd1576dbe5a26ca5a9c66421d5500b **
-
   * Bump Standards-Version to 3.9.8
   * Update symbols files from buildds logs (15.12.0-1).
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
   * Update symbols files
-  * Update symbols files.
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -18,7 +13,7 @@ kpimtextedit (16.04.1-1~1.gbpb58536) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 11 May 2016 01:42:21 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 01:51:28 +0200
 
 kpimtextedit (15.12.0-1) experimental; urgency=medium
 
