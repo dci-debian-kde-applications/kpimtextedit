@@ -1,0 +1,20 @@
+--- a/src/texttospeech/autotests/texttospeechactionstest.cpp
++++ b/src/texttospeech/autotests/texttospeechactionstest.cpp
+@@ -27,6 +27,7 @@
+     : QObject(parent)
+ {
+     qRegisterMetaType<KPIMTextEdit::TextToSpeechWidget::State>();
++    QIcon::setThemeName(QStringLiteral("oxygen"));
+ }
+ 
+ TextToSpeechActionsTest::~TextToSpeechActionsTest()
+--- a/src/texttospeech/autotests/texttospeechwidgettest.cpp
++++ b/src/texttospeech/autotests/texttospeechwidgettest.cpp
+@@ -30,6 +30,7 @@
+     : QObject(parent)
+ {
+     qRegisterMetaType<KPIMTextEdit::TextToSpeechWidget::State>();
++    QIcon::setThemeName(QStringLiteral("oxygen"));
+ }
+ 
+ void TextToSpeechWidgetTest::addInterface(KPIMTextEdit::TextToSpeechWidget *widget)
