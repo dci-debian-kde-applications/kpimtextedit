@@ -1,3 +1,18 @@
+kpimtextedit (16.04.1-2~1.gbp59c030) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @59c03058718fa3000fec8ba371cae957febc8cf4 **
+
+  [ Maximiliano Curia ]
+  * Update testsuite script
+  * testsuite: add libgl1-mesa-dri missing dependency
+  * testsuite: add xdg env, and a wm
+  * Add new patch: set_icontheme.diff
+
+  [ Automatic packaging ]
+  * Update symbols files with the buildds results
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 30 May 2016 22:48:23 +0200
+
 kpimtextedit (16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
