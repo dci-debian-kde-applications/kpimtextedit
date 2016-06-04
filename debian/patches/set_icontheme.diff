@@ -1,6 +1,10 @@
-From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Date: Wed, 15 Jun 2016 01:42:22 +0200
-Subject: set_icontheme
+From: Maximiliano Curia <maxy@gnuservers.com.ar>
+Date: Sun May 29 18:21:52 2016 +0200
+Subject: Set the icontheme for the unit_tests
+
+Currently kpimtextedit uses media-playback-stop icons that are not
+available in the hicolor icontheme (which is the default one for the
+unit tests environment).
 
 ---
  src/texttospeech/autotests/texttospeechactionstest.cpp | 1 +
@@ -15,7 +19,7 @@ index ab14c62..a5578ca 100644
      : QObject(parent)
  {
      qRegisterMetaType<KPIMTextEdit::TextToSpeechWidget::State>();
-+    QIcon::setThemeName(QStringLiteral("oxygen"));
++    QIcon::setThemeName(QStringLiteral("breeze"));
  }
  
  TextToSpeechActionsTest::~TextToSpeechActionsTest()
@@ -27,7 +31,7 @@ index 0ee53fc..401e5eb 100644
      : QObject(parent)
  {
      qRegisterMetaType<KPIMTextEdit::TextToSpeechWidget::State>();
-+    QIcon::setThemeName(QStringLiteral("oxygen"));
++    QIcon::setThemeName(QStringLiteral("breeze"));
  }
  
  void TextToSpeechWidgetTest::addInterface(KPIMTextEdit::TextToSpeechWidget *widget)
