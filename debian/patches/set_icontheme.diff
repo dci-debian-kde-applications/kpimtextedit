@@ -11,11 +11,9 @@ unit tests environment).
  src/texttospeech/autotests/texttospeechwidgettest.cpp  | 1 +
  2 files changed, 2 insertions(+)
 
-diff --git a/src/texttospeech/autotests/texttospeechactionstest.cpp b/src/texttospeech/autotests/texttospeechactionstest.cpp
-index ab14c62..a5578ca 100644
 --- a/src/texttospeech/autotests/texttospeechactionstest.cpp
 +++ b/src/texttospeech/autotests/texttospeechactionstest.cpp
-@@ -27,6 +27,7 @@ TextToSpeechActionsTest::TextToSpeechActionsTest(QObject *parent)
+@@ -27,6 +27,7 @@
      : QObject(parent)
  {
      qRegisterMetaType<KPIMTextEdit::TextToSpeechWidget::State>();
@@ -23,11 +21,9 @@ index ab14c62..a5578ca 100644
  }
  
  TextToSpeechActionsTest::~TextToSpeechActionsTest()
-diff --git a/src/texttospeech/autotests/texttospeechwidgettest.cpp b/src/texttospeech/autotests/texttospeechwidgettest.cpp
-index 0ee53fc..401e5eb 100644
 --- a/src/texttospeech/autotests/texttospeechwidgettest.cpp
 +++ b/src/texttospeech/autotests/texttospeechwidgettest.cpp
-@@ -30,6 +30,7 @@ TextToSpeechWidgetTest::TextToSpeechWidgetTest(QObject *parent)
+@@ -30,6 +30,7 @@
      : QObject(parent)
  {
      qRegisterMetaType<KPIMTextEdit::TextToSpeechWidget::State>();
@@ -35,3 +31,13 @@ index 0ee53fc..401e5eb 100644
  }
  
  void TextToSpeechWidgetTest::addInterface(KPIMTextEdit::TextToSpeechWidget *widget)
+--- a/src/composer-ng/autotests/richtextcomposertest.cpp
++++ b/src/composer-ng/autotests/richtextcomposertest.cpp
+@@ -41,6 +41,7 @@
+     : QObject(parent)
+ {
+     qRegisterMetaType<KPIMTextEdit::RichTextComposer::Mode>();
++    QIcon::setThemeName(QStringLiteral("breeze"));
+ }
+ 
+ RichTextComposerTest::~RichTextComposerTest()
