@@ -1,6 +1,4 @@
-kpimtextedit (16.04.2-1~1.gbpfdb7b9) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @fdb7b9519ae71f54b3027dcba3ca3fe4c0fc71a3 **
+kpimtextedit (16.04.2-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * Update testsuite script
@@ -12,7 +10,7 @@ kpimtextedit (16.04.2-1~1.gbpfdb7b9) UNRELEASED; urgency=medium
   * Update symbols files with the buildds results
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 01:42:27 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 27 Jun 2016 12:59:40 +0200
 
 kpimtextedit (16.04.1-1) unstable; urgency=medium
 
