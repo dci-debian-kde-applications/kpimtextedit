@@ -1,3 +1,12 @@
+kpimtextedit (16.04.3-1~1.gbp999ed4) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @999ed450aa78e0d8feb77437f5089a6449c87aa2 **
+
+  * Refresh patches
+  * Update symbols files with the buildds results
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 14 Jul 2016 17:42:39 +0200
+
 kpimtextedit (16.04.2-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
