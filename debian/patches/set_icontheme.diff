@@ -1,39 +1,21 @@
 From: Maximiliano Curia <maxy@gnuservers.com.ar>
-Date: Sun May 29 18:21:52 2016 +0200
+Date: Sun, 29 May 2016 18:21:52 +0200
 Subject: Set the icontheme for the unit_tests
 
 Currently kpimtextedit uses media-playback-stop icons that are not
 available in the hicolor icontheme (which is the default one for the
 unit tests environment).
-
 ---
+ src/composer-ng/autotests/richtextcomposertest.cpp     | 1 +
  src/texttospeech/autotests/texttospeechactionstest.cpp | 1 +
  src/texttospeech/autotests/texttospeechwidgettest.cpp  | 1 +
- 2 files changed, 2 insertions(+)
+ 3 files changed, 3 insertions(+)
 
---- a/src/texttospeech/autotests/texttospeechactionstest.cpp
-+++ b/src/texttospeech/autotests/texttospeechactionstest.cpp
-@@ -27,6 +27,7 @@
-     : QObject(parent)
- {
-     qRegisterMetaType<KPIMTextEdit::TextToSpeechWidget::State>();
-+    QIcon::setThemeName(QStringLiteral("breeze"));
- }
- 
- TextToSpeechActionsTest::~TextToSpeechActionsTest()
---- a/src/texttospeech/autotests/texttospeechwidgettest.cpp
-+++ b/src/texttospeech/autotests/texttospeechwidgettest.cpp
-@@ -30,6 +30,7 @@
-     : QObject(parent)
- {
-     qRegisterMetaType<KPIMTextEdit::TextToSpeechWidget::State>();
-+    QIcon::setThemeName(QStringLiteral("breeze"));
- }
- 
- void TextToSpeechWidgetTest::addInterface(KPIMTextEdit::TextToSpeechWidget *widget)
+diff --git a/src/composer-ng/autotests/richtextcomposertest.cpp b/src/composer-ng/autotests/richtextcomposertest.cpp
+index 96654dd..63880e8 100644
 --- a/src/composer-ng/autotests/richtextcomposertest.cpp
 +++ b/src/composer-ng/autotests/richtextcomposertest.cpp
-@@ -41,6 +41,7 @@
+@@ -41,6 +41,7 @@ RichTextComposerTest::RichTextComposerTest(QObject *parent)
      : QObject(parent)
  {
      qRegisterMetaType<KPIMTextEdit::RichTextComposer::Mode>();
@@ -41,3 +23,27 @@ unit tests environment).
  }
  
  RichTextComposerTest::~RichTextComposerTest()
+diff --git a/src/texttospeech/autotests/texttospeechactionstest.cpp b/src/texttospeech/autotests/texttospeechactionstest.cpp
+index ab14c62..b4ee106 100644
+--- a/src/texttospeech/autotests/texttospeechactionstest.cpp
++++ b/src/texttospeech/autotests/texttospeechactionstest.cpp
+@@ -27,6 +27,7 @@ TextToSpeechActionsTest::TextToSpeechActionsTest(QObject *parent)
+     : QObject(parent)
+ {
+     qRegisterMetaType<KPIMTextEdit::TextToSpeechWidget::State>();
++    QIcon::setThemeName(QStringLiteral("breeze"));
+ }
+ 
+ TextToSpeechActionsTest::~TextToSpeechActionsTest()
+diff --git a/src/texttospeech/autotests/texttospeechwidgettest.cpp b/src/texttospeech/autotests/texttospeechwidgettest.cpp
+index 0ee53fc..74c0fee 100644
+--- a/src/texttospeech/autotests/texttospeechwidgettest.cpp
++++ b/src/texttospeech/autotests/texttospeechwidgettest.cpp
+@@ -30,6 +30,7 @@ TextToSpeechWidgetTest::TextToSpeechWidgetTest(QObject *parent)
+     : QObject(parent)
+ {
+     qRegisterMetaType<KPIMTextEdit::TextToSpeechWidget::State>();
++    QIcon::setThemeName(QStringLiteral("breeze"));
+ }
+ 
+ void TextToSpeechWidgetTest::addInterface(KPIMTextEdit::TextToSpeechWidget *widget)
