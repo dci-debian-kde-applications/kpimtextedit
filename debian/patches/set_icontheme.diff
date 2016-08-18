@@ -12,10 +12,10 @@ unit tests environment).
  3 files changed, 3 insertions(+)
 
 diff --git a/src/composer-ng/autotests/richtextcomposertest.cpp b/src/composer-ng/autotests/richtextcomposertest.cpp
-index 96654dd..63880e8 100644
+index a1c16d2..1a76716 100644
 --- a/src/composer-ng/autotests/richtextcomposertest.cpp
 +++ b/src/composer-ng/autotests/richtextcomposertest.cpp
-@@ -41,6 +41,7 @@ RichTextComposerTest::RichTextComposerTest(QObject *parent)
+@@ -43,6 +43,7 @@ RichTextComposerTest::RichTextComposerTest(QObject *parent)
      : QObject(parent)
  {
      qRegisterMetaType<KPIMTextEdit::RichTextComposer::Mode>();
@@ -24,10 +24,10 @@ index 96654dd..63880e8 100644
  
  RichTextComposerTest::~RichTextComposerTest()
 diff --git a/src/texttospeech/autotests/texttospeechactionstest.cpp b/src/texttospeech/autotests/texttospeechactionstest.cpp
-index ab14c62..b4ee106 100644
+index e327fa7..71ababc 100644
 --- a/src/texttospeech/autotests/texttospeechactionstest.cpp
 +++ b/src/texttospeech/autotests/texttospeechactionstest.cpp
-@@ -27,6 +27,7 @@ TextToSpeechActionsTest::TextToSpeechActionsTest(QObject *parent)
+@@ -29,6 +29,7 @@ TextToSpeechActionsTest::TextToSpeechActionsTest(QObject *parent)
      : QObject(parent)
  {
      qRegisterMetaType<KPIMTextEdit::TextToSpeechWidget::State>();
@@ -36,10 +36,10 @@ index ab14c62..b4ee106 100644
  
  TextToSpeechActionsTest::~TextToSpeechActionsTest()
 diff --git a/src/texttospeech/autotests/texttospeechwidgettest.cpp b/src/texttospeech/autotests/texttospeechwidgettest.cpp
-index 0ee53fc..74c0fee 100644
+index 4070c13..b22a471 100644
 --- a/src/texttospeech/autotests/texttospeechwidgettest.cpp
 +++ b/src/texttospeech/autotests/texttospeechwidgettest.cpp
-@@ -30,6 +30,7 @@ TextToSpeechWidgetTest::TextToSpeechWidgetTest(QObject *parent)
+@@ -32,6 +32,7 @@ TextToSpeechWidgetTest::TextToSpeechWidgetTest(QObject *parent)
      : QObject(parent)
  {
      qRegisterMetaType<KPIMTextEdit::TextToSpeechWidget::State>();
