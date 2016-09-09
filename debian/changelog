@@ -1,13 +1,14 @@
-kpimtextedit (16.08.0-1~1.gbp687f0d) UNRELEASED; urgency=medium
+kpimtextedit (16.08.1-1~1.gbpe447e6) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @687f0dd098781fd2cf0522f4b28176d82f58d155 **
+  ** SNAPSHOT build @e447e6f2d3ffeba8910b0a442557e180e19af273 **
 
   * Refresh patches
   * Update symbols files with the buildds results
   * Update build-deps and deps with the info from cmake
   * Refresh patches
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 19:42:19 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 13:42:41 +0200
 
 kpimtextedit (16.04.2-1) unstable; urgency=medium
 
