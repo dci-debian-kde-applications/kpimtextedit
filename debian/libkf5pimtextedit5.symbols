@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 16.04.2 hurd-i386
+# SymbolsHelper-Confirmed: 16.08.0 amd64 armhf i386
 libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIdEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.12.0
  _ZN12KPIMTextEdit10EditorUtil11reverseCaseER11QTextCursor@Base 15.12.0
@@ -403,6 +403,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit20RichTextEditorWidget11slotReplaceEv@Base 15.12.0
  _ZN12KPIMTextEdit20RichTextEditorWidget12setPlainTextERK7QString@Base 15.12.0
  _ZN12KPIMTextEdit20RichTextEditorWidget12slotFindNextEv@Base 15.12.0
+ _ZN12KPIMTextEdit20RichTextEditorWidget15slotHideFindBarEv@Base 16.08.0
  _ZN12KPIMTextEdit20RichTextEditorWidget16staticMetaObjectE@Base 15.12.0
  _ZN12KPIMTextEdit20RichTextEditorWidget17setAcceptRichTextEb@Base 15.12.0
  _ZN12KPIMTextEdit20RichTextEditorWidget30setSpellCheckingConfigFileNameERK7QString@Base 15.12.0
@@ -422,6 +423,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit21PlainTextEditorWidget11setReadOnlyEb@Base 15.12.0
  _ZN12KPIMTextEdit21PlainTextEditorWidget11slotReplaceEv@Base 15.12.0
  _ZN12KPIMTextEdit21PlainTextEditorWidget12setPlainTextERK7QString@Base 15.12.0
+ _ZN12KPIMTextEdit21PlainTextEditorWidget15slotHideFindBarEv@Base 16.08.0
  _ZN12KPIMTextEdit21PlainTextEditorWidget16staticMetaObjectE@Base 15.12.0
  _ZN12KPIMTextEdit21PlainTextEditorWidget30setSpellCheckingConfigFileNameERK7QString@Base 15.12.0
  _ZN12KPIMTextEdit21PlainTextEditorWidget4initEPNS_15PlainTextEditorE@Base 15.12.0
