@@ -16,6 +16,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5iconthemes-dev (>= 5.19.0~),
                libkf5kdelibs4support-dev (>= 5.12.0~),
                libkf5sonnet-dev (>= 5.19.0~),
+               libkf5syntaxhighlighting-dev (>= 5.19.0~),
                libkf5textwidgets-dev (>= 5.19.0~),
                libkf5widgetsaddons-dev (>= 5.19.0~),
                libkf5xmlgui-dev (>= 5.19.0~),
@@ -31,6 +32,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: libkf5pimtextedit5 (= ${binary:Version}),
+         libkf5syntaxhighlighting-dev (>= 5.19.0~),
          libkf5textwidgets-dev (>= 5.19.0~),
          ${misc:Depends}
 Description: libkf5pimtextedit - development files
