@@ -1,2 +1,3 @@
+etc/xdg/kpimtextedit.categories
 usr/lib/*/libKF5PimTextEdit.so.5
 usr/lib/*/libKF5PimTextEdit.so.5.*
