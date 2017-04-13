@@ -22,6 +22,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5xmlgui-dev (>= 5.19.0~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4.0~),
+               qttools5-dev,
                qttools5-dev-tools
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/kde/pim/kpimtextedit
