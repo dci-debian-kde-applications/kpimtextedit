@@ -49,6 +49,8 @@ Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: libkf5pimtextedit-plugins
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: library that provides a textedit with PIM-specific features
  KPIMTextedit provides a textedit with PIM-specific features. It also provides
  so-called rich text builders which can convert the formatted text in the text
