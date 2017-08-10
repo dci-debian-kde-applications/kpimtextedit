@@ -21,7 +21,9 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5widgetsaddons-dev (>= 5.19.0~),
                libkf5xmlgui-dev (>= 5.19.0~),
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.4.0~)
+               qtbase5-dev (>= 5.4.0~),
+               qttools5-dev,
+               qttools5-dev-tools
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/kde/pim/kpimtextedit
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kpimtextedit.git
@@ -46,9 +48,23 @@ Package: libkf5pimtextedit5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: libkf5pimtextedit-plugins
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: library that provides a textedit with PIM-specific features
  KPIMTextedit provides a textedit with PIM-specific features. It also provides
  so-called rich text builders which can convert the formatted text in the text
  edit to all kinds of markup, like HTML or BBCODE.
  .
  This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkf5pimtextedit-plugins
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library that provides a textedit with PIM-specific features - plugins
+ KPIMTextedit provides a textedit with PIM-specific features. It also provides
+ so-called rich text builders which can convert the formatted text in the text
+ edit to all kinds of markup, like HTML or BBCODE.
+ .
+ This package contains the plugin for Qt Designer.
