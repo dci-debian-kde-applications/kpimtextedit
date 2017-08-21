@@ -24,8 +24,6 @@ Build-Depends: cmake (>= 3.0~),
                libkf5widgetsaddons-dev (>= 5.35.0~),
                libkf5xmlgui-dev (>= 5.35.0~),
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.5.0~)
-               libkf5syntaxhighlighting-dev (>= 5.23.0~),
                qtbase5-dev (>= 5.7.0~),
                qttools5-dev,
                qttools5-dev-tools,
