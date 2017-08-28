@@ -46,6 +46,8 @@ Description: libkf5pimtextedit - development files
  edit to all kinds of markup, like HTML or BBCODE.
  .
  This package contains the development files.
+Breaks: libkf5identitymanagement-dev (<< 17.08),
+        libkf5pimcommon-dev (<< 4:17.08),
 
 Package: libkf5pimtextedit-plugins
 Architecture: any
@@ -63,8 +65,25 @@ Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: libkf5pimtextedit-plugins
-Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+Breaks: akonadiconsole (<< 4:17.08),
+        akregator (<< 4:17.08),
+        kalarm (<< 4:17.08),
+        kde-l10n-ast (<< 4:17.03.90-0~),
         kde-l10n-eo (<< 4:17.03.90-0~),
+        kdepim-addons (<< 17.08),
+        kdepim-themeeditors (<< 4:17.08),
+        kmail (<< 4:17.08),
+        knotes (<< 4:17.08),
+        korganizer (<< 4:17.08),
+        libkf5identitymanagement5 (<< 17.08),
+        libkf5incidenceeditor5 (<< 17.08),
+        libkf5ksieveui5 (<< 4:17.08),
+        libkf5libkleo5 (<< 4:17.08),
+        libkf5messagecomposer5 (<< 4:17.08),
+        libkf5messagecore5 (<< 4:17.08),
+        libkf5messageviewer5 (<< 4:17.08),
+        libkf5pimcommon5 (<< 4:17.08),
+        libkf5templateparser5 (<< 4:17.08),
         ${kde-l10n:all},
 Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
           kde-l10n-eo (<< 4:17.03.90-0~),
