@@ -35,7 +35,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kpimtextedit.git
 Package: libkf5pimtextedit-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Depends: libkf5pimtextedit5 (= ${binary:Version}),
          libkf5syntaxhighlighting-dev (>= 5.35.0~),
          libkf5textwidgets-dev (>= 5.35.0~),
