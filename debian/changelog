@@ -6,6 +6,7 @@ kpimtextedit (17.08.3-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.2 (No changes needed).
   * Mark libkf5pimtextedit-dev correctly as Multi-Arch: same.
   * Bump debhelper build-dep and compat to 10.
+  * Update symbols from buildds for 17.08.0
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 17:22:00 +0100
 

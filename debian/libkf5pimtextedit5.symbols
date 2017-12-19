@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 17.08.0 amd64
+# SymbolsHelper-Confirmed: 17.08.0 alpha amd64
 libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIdEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.12.0
  _ZN12KPIMTextEdit10EditorUtilC1Ev@Base 15.12.0
@@ -686,7 +686,7 @@ libKF5PimTextEdit.so.5 libkf5pimtextedit5 #MINVER#
  _ZN12KPIMTextEdit39PlainTextSyntaxSpellCheckingHighlighterD2Ev@Base 15.12.0
  _ZN12KPIMTextEdit9TextUtils18containsFormattingEPK13QTextDocument@Base 15.07.90
  _ZN12KPIMTextEdit9TextUtils8flowTextER7QStringRKS1_i@Base 15.07.90
- (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.12.0
+ (optional=templinst|arch=!alpha !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.12.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.12.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 15.12.0
  _ZNK12KPIMTextEdit10EditorUtil11reverseCaseER11QTextCursor@Base 17.08.0
