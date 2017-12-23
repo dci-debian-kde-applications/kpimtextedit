@@ -2,6 +2,7 @@ kpimtextedit (17.08.3-2) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Remove unused kio-dev, and libkf5kdelibs4support-dev build dependencies.
+  * Simplify watch file, and switch it to https.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Dec 2017 10:27:44 +0100
 
