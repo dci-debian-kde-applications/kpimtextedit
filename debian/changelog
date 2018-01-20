@@ -1,5 +1,8 @@
 kpimtextedit (17.08.3-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Switch the kdesignerplugin build dependency to kgendesignerplugin, as the
+    latter is the actual needed one.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Jan 2018 11:50:01 +0100
 
