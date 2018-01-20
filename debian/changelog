@@ -1,3 +1,8 @@
+kpimtextedit (17.08.3-3) UNRELEASED; urgency=medium
+
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Jan 2018 11:50:01 +0100
+
 kpimtextedit (17.08.3-2) unstable; urgency=medium
 
   * Team upload.
