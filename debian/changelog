@@ -4,6 +4,8 @@ kpimtextedit (17.12.1-0) UNRELEASED; urgency=medium
   * New upstream release (17.12.1).
   * Update build-deps and deps with the info from cmake
   * Enable build tests.
+  * split arch independent files into own package (libkf5pimtextedit-
+    data).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Feb 2018 14:00:04 +0100
 
