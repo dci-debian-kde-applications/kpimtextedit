@@ -12,4 +12,4 @@ override_dh_strip:
 
 override_dh_auto_test:
 	# Disable auto test at build time, fakeroot breaks them
-	:
+	-xvfb-run -- dh_auto_test --no-parallel
