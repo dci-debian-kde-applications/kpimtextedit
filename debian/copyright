@@ -5,10 +5,10 @@ Source: http://download.kde.org/pub/kde/unstable/applications/
 Files: *
 Copyright: 2007, Aurélien Gâteau <agateau@kde.org>
            2012-2017, Laurent Montel <montel@kde.org>
-           2010, Stephen Kelly <steveire@gmail.com>
-           2009, Thomas McGuire <mcguire@kde.org>
            2010, Rosetta Contributors and Canonical Ltd 2010
+           2010, Stephen Kelly <steveire@gmail.com>
            2009-2015, This_file_is_part_of_KDE
+           2009, Thomas McGuire <mcguire@kde.org>
 License: LGPL-2+
 
 Files: COPYING.LIB
@@ -31,24 +31,24 @@ Files: autotests/slidecontainertest.cpp
 Copyright: 2007-2011, Aurélien Gâteau <agateau@kde.org>
 License: GPL-2+
 
-Files: autotests/editorutiltest.cpp
-       autotests/editorutiltest.h
-Copyright: 2015-2017, Montel Laurent <montel@kde.org>
-License: GPL-2
-
-Files: autotests/textutilstest.cpp
-Copyright: 2011, Torgny Nyblom <nyblom@kde.org>
-License: LGPL-2+3+KDEeV
-
-Files: autotests/textutilstest.h
-Copyright: 2011, Torgny Nyblom <nyblom@kde.org>
-License: GPL-2+3+KDEeV
-
 Files: po/ca/*
        po/ca@valencia/*
        po/uk/*
 Copyright: 2009-2017, This_file_is_part_of_KDE
 License: LGPL-2.1+3+KDEeV
+
+Files: autotests/editorutiltest.cpp
+       autotests/editorutiltest.h
+Copyright: 2015-2017, Montel Laurent <montel@kde.org>
+License: GPL-2
+
+Files: autotests/textutilstest.h
+Copyright: 2011, Torgny Nyblom <nyblom@kde.org>
+License: GPL-2+3+KDEeV
+
+Files: autotests/textutilstest.cpp
+Copyright: 2011, Torgny Nyblom <nyblom@kde.org>
+License: LGPL-2+3+KDEeV
 
 Files: debian/*
 Copyright: 2015 Harald Sitter <sitter@kde.org>
@@ -160,3 +160,4 @@ License: LGPL-2.1+3+KDEeV
  found in `/usr/share/common-licenses/LGPL-2.1', likewise, the complete text
  of the GNU Lesser General Public License version 3 can be found in
  `/usr/share/common-licenses/LGPL-3'.
+
