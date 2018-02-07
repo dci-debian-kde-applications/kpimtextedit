@@ -36,7 +36,7 @@ Package: libkf5pimtextedit-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5pimtextedit5 (= ${binary:Version}),
+Depends: libkf5pimtextedit5abi1 (= ${binary:Version}),
          libkf5syntaxhighlighting-dev (>= 5.39.0~),
          libkf5textwidgets-dev (>= 5.39.0~),
          ${misc:Depends},
@@ -73,7 +73,9 @@ Description: libkf5pimtextedit - arch independent files
  .
  This package contains the arch independent files.
 
-Package: libkf5pimtextedit5
+Package: libkf5pimtextedit5abi1
+X-Debian-ABI: 1
+X-CMake-Target: KF5PimTextEdit
 Architecture: any
 Multi-Arch: same
 Depends: libkf5pimtextedit-data (= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}

@@ -6,6 +6,9 @@ kpimtextedit (17.12.1-0) UNRELEASED; urgency=medium
   * Enable build tests.
   * split arch independent files into own package (libkf5pimtextedit-
     data).
+  * Use DebianABIManager to handle libkpimtextedit* properly.
+  * Update library from libkpimtextedit5 -> libkkpimtextedit5abi1,
+    because of ABI breakage.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Feb 2018 14:00:04 +0100
 

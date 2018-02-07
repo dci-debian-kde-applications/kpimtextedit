@@ -1,0 +1,7 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -131,3 +131,4 @@ install( FILES kpimtextedit.categories D
+ 
+ feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
+ ki18n_install(po)
++include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)
